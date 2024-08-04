@@ -2,8 +2,8 @@
 
 /* 
     Paleta de cores
-    verde: #49a09d
-    lilás: #5f2c82
+    Verde: #49a09d
+    Lilás: #5f2c82
 */
 
 * {
@@ -31,13 +31,13 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -91,10 +91,10 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 45px);
     height: 100%;
-    transform: translateY(-13px);
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-13px);
 }
 
 div.campo > input:focus-within {
