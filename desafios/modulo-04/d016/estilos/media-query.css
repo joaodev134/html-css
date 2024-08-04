@@ -28,6 +28,25 @@ Grandes telas: acima de 1200px
         float: right;
         width: 70%;
     }
+
+    div.campo > input {
+        position: absolute;
+        height: 36px;
+        transform: translateY(0px);
+        width: 62%;
+    }
+
+    form#capeta > input {
+        display: block;
+        width: 70.3%;
+        margin: auto;
+        height: 40px;
+    }
+
+    form#capeta > a {
+        width: 50%;
+        margin-left: 220px;
+    }
 }
 
 @media screen and (min-width: 992px) { /* CONFIGURAÇÕES PARA DESKTOP */
@@ -58,5 +77,12 @@ Grandes telas: acima de 1200px
     div#formulario > p {
         font-size: 1em;
         margin: 20px 0px;
+    }
+
+    div.campo > input {
+        position: absolute;
+        height: 40px;
+        transform: translateY(-2px);
+        width: 44%;
     }
 }
